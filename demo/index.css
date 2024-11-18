@@ -1,0 +1,78 @@
+.container{
+background-color: yellow;
+width: 100vp;
+height: 2000px;
+border: 2px black solid;
+/* position: relative; */
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-column-start: 1;
+grid-column-end: 4;
+}
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px black solid;
+    
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px black solid;
+    
+}
+
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+    border: 2px black solid;
+} 
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px black solid;
+    
+}
+
+#box5{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+    border: 2px black solid;
+} 
+#box6{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 2px black solid;
+    position: sticky;
+    top: 0px;
+}
+
+
+/* #box1:hover{
+     transform: scale(1.1);
+} */
+
+
+   /* @keyframes anime {
+    from{
+        top:0px;
+        left: 0px;
+    }
+
+    to{
+        top:500px;
+        left:1500px;
+
+    }
+    
+}  */
+
+
